@@ -18,7 +18,9 @@ varnewstrAr=strArr.pop()
 console.log(strArr)
 
 // manipulate array with shift()
-// remove an element from the end of an array
+// remove an element from the start of an array
+//the shift() method is used on arrays to remove the first element and return it
+
 var myArray=[["Jacob", 24], ["kangaroo", 2]]
 var removedFromMyArray=myArray.shift();
 console.log(myArray);
