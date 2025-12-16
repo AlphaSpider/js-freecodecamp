@@ -19,3 +19,9 @@ console.log("green");
 }else {
 console.log("purple");
 }
+
+// GAMEEEEEE!!!!!!!!!!!!
+
+let maximum = parseInt(prompt("Enter a maximum number!")); //parseint is for only take is the entered is int
+const targetNum= Math.floor(Math.random()*maximum)+1;
+console.log(targetNum)
